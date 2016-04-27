@@ -26,12 +26,15 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="col-md-2"></div>
-
-    <div class="col-md-8" ui-view=""></div>
-
-    <div class="col-md-2"></div>
-
+    <header>
+      <div ui-view="header"></div>
+    </header>
+    
+    <div ui-view="mainContent"></div>
+    
+    <footer>
+      <div ui-view="footer"></div>
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -73,6 +76,8 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/services/products.js"></script>
+        <script src="scripts/controllers/Header.js"></script>
+        <script src="scripts/controllers/Footer.js"></script>
         <!-- endbuild -->
 </body>
 </html>
