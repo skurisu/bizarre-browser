@@ -1,0 +1,12 @@
+<div class="hero-unit">
+  <div ng-repeat="product in products" class="product-card row">
+    <div class="thumb-img">
+      <img ng-src="{{product.thumbnail}}">
+    </div>
+    <div class="product-details">
+      <p>{{product.title}}</p>
+      <p>{{product.description}}</p>
+      <span>{{product.category}}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+[{
+    "productId": 1234,
+    "title": "Name of product",
+    "price": "400.12",
+    "description": "This is what the product is all about",
+    "thumbnail": "http://i5.walmartimages.com/dfw/dce07b8c-5867/k2-_02c67935-f07d-4c47-a660-fac1f152d95e.v1.jpg",
+    "category": "chair"
+},{
+    "productId": 1234,
+    "title": "Name of product",
+    "price": "400.12",
+    "description": "This is what the product is all about",
+    "thumbnail": "http://i5.walmartimages.com/dfw/dce07b8c-5867/k2-_02c67935-f07d-4c47-a660-fac1f152d95e.v1.jpg",
+    "category": "chair"
+}]
